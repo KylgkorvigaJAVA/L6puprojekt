@@ -24,39 +24,14 @@
                 <div class="position-relative">
                     <div class="row align-items-center">
                         <div class="text-center">
-                            <h1 class="text-header display-1 fw-bold logo">Kännust Kööki</h2>
+                            <h1 class="text-header fw-bold logo">Kännust Kööki</h2>
                         </div>
                     </div>
                 </div>
-                <!-- Mobile sidenav start -->
-                <div class="d-lg-none position-absolute" style="right: 12px; top: 24px;">
-                    <i class="fa fa-bars" type="icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive"
-                        aria-controls="offcanvasResponsive" style="font-size: 24px;">
-                    </i>
-                </div>
-
-                <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
-                    <div class="offcanvas-header">
-                        <button type="button" class="btn-close mt-4" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body d-block d-lg-none">
-                        <div class="mobile-side-nav d-block d-lg-none">
-                            <div class="container text-center mobile-nav-contacts">
-                        </div>
-                            <div class="container text-center mobile-nav-links">
-                                <a href="index.html">#</a>
-                                <a href="meist.html">#</a>
-                                <a href="tehtud.html">#</a>
-                                <a href="kasulik_teada.html">#</a>
-                                <a href="kontakt.html">#</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Mobile sidenav end -->
+            </div>
                 <!-- Desktop nav start  -->
-                <div class="row justify-content-center">
-                    <div class="mt">
+                <div class="row justify-content-center d-none d-md-flex">
+                    <div class="desktop-nav-items">
                         <ul class="nav justify-content-center text-black flex-nowrap">
                             <li class="nav-item">
                                 <a class="button btn btn-white active" href="index.html">TOOTED</a>
@@ -78,6 +53,30 @@
                 </div>
                 <!-- Desktop nav end -->
             </div>
+            <!-- Mobile sidenav start -->
+            <div class="d-md-none position-absolute" style="right: 12px; top: 24px;">
+                <i class="fa fa-bars" type="icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive"
+                    aria-controls="offcanvasResponsive" style="font-size: 24px;"></i>
+            </div>
+            <div class="offcanvas-md offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close mt-4" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-block d-md-none">
+                    <div class="mobile-side-nav">
+                        <div class="container text-center mobile-nav-contacts">
+                    </div>
+                        <div class="container text-center mobile-nav-links">
+                            <a href="index.html">#</a>
+                            <a href="meist.html">#</a>
+                            <a href="tehtud.html">#</a>
+                            <a href="kasulik_teada.html">#</a>
+                            <a href="kontakt.html">#</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile sidenav end -->
         </nav>
     </header>
 

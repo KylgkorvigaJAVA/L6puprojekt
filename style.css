@@ -24,27 +24,34 @@ body {
 }
 
 .button {
+    background-color: #bb9457;
     width:140px;
     text-align:center;
+    margin: 5px;
 }
 
 .btn:hover {
-    background-color: #DD7007;
-    border-color: #DD7007;
+    background-color: #6f1d1b;
+    border-color: #6f1d1b;
     border-radius: 5px;
     color: white;
 }
 
 .btn.active {
-    background-color: #DD7007;
-    border-color: #DD7007;
+    background-color: #6f1d1b;
+    border-color: #6f1d1b;
     border-radius: 5px;
     color: white;
     outline: 0;
 }
 
+.desktop-nav-items {
+    font-size: 24px;
+    padding-top: 130px;
+}
+
 .text-center {
-    padding-top: 150px;
+    padding-top: 180px;
 }
 
 .logo {
@@ -53,7 +60,8 @@ body {
 
 .text-header {
     font-family: 'Montagu Slab', serif;
-    color:#bb9457;
+    color:#ffe6a7;
+    font-size: 6rem;
     text-shadow: 
         -1px -1px 0 #000,  
          1px -1px 0 #000,
