@@ -54,10 +54,6 @@ body {
     padding-top: 180px;
 }
 
-.logo {
-    animation: slideDown 1s ease-out;
-}
-
 .text-header {
     font-family: 'Montagu Slab', serif;
     color:#ffe6a7;
@@ -67,6 +63,7 @@ body {
          1px -1px 0 #000,
         -1px  1px 0 #000,
          1px  1px 0 #000;
+    animation: slideDown 1s ease-out;
 }
 
 .text-primary {
