@@ -15,37 +15,39 @@
     helepruun: #99582a
     tumebeež: #bb9457
     helebeež: #ffe6a7
-    nupud? - punakaspruun: #6f1d1b */
+    punakaspruun: #5d2a29 */
 
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: #432818;
+    background-color: #5d2a29;
     z-index: -3;
 }
 
 .button {
-    background-color: #bb9457;
+    background-color: #ffe6a7;
     width:140px;
     text-align:center;
     margin: 5px;
-    font-family: 'Old Standard TT', serif;
+    color:#432818;
+    font-weight: bold;
+    font-family: 'Montagu Slab', serif;
 }
 
 .btn:hover {
-    background-color: #6f1d1b;
-    border-color: #6f1d1b;
+    background-color: #432818;
+    border-color: #432818;
     border-radius: 5px;
-    color: white;
+    color: #ffe6a7;
 }
 
 .btn.active {
-    background-color: #6f1d1b;
-    border-color: #6f1d1b;
+    background-color: #432818;
+    border-color: #432818;
     border-radius: 5px;
-    color: white;
+    color: #ffe6a7;
     outline: 0;
 }
 
@@ -59,7 +61,7 @@ body, html {
 }
 
 .mobile-menu-btn {
-    color: #bb9457;
+    color: #ffe6a7;
 }
 
 header {
@@ -96,23 +98,25 @@ header {
 .text-header {
     font-family: 'Montagu Slab', serif;
     color:#ffe6a7;
-    font-size: 4rem;
-    text-shadow: 
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
+    font-size: 6rem;
     animation: slideDown 1s ease-out;
     white-space: nowrap;
 }
 
-.text-primary {
+.text-title {
+    font-family: 'Montagu Slab', serif;
+    color:#ffe6a7;
+    
+}
+
+.text-content {
     font-family: 'Old Standard TT', serif;
+    color: white;
 }
 
 @media (max-width: 768px) {
     .text-header {
-        font-size: 4rem; /* Adjust the size as needed */
+        font-size: 6rem; /* Adjust the size as needed */
         white-space: normal; /* Allow text wrapping on smaller screens */
     }
 }
