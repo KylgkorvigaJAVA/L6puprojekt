@@ -20,6 +20,37 @@ body, html {
     z-index: -3;
 }
 
+.button {
+    background-color: #bb9457;
+    width:140px;
+    text-align:center;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #6f1d1b;
+    border-color: #6f1d1b;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn.active {
+    background-color: #6f1d1b;
+    border-color: #6f1d1b;
+    border-radius: 5px;
+    color: white;
+    outline: 0;
+}
+
+.desktop-nav-items {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 2;
+}
+
 header {
     position: relative;
     width: 100%;
