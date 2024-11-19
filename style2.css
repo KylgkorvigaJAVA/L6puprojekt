@@ -11,6 +11,12 @@
     }
 }
 
+/*  tumepruun: #432818
+    helepruun: #99582a
+    tumebeež: #bb9457
+    helebeež: #ffe6a7
+    nupud? - punakaspruun: #6f1d1b */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -49,6 +55,10 @@ body, html {
     text-align: center;
     padding: 10px 0;
     z-index: 2;
+}
+
+.mobile-menu-btn {
+    color: #bb9457;
 }
 
 header {
