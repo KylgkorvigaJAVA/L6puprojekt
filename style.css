@@ -26,6 +26,10 @@ body, html {
     z-index: -3;
 }
 
+.bg-footer {
+    background-color: #421d1c;
+}
+
 .button {
     background-color: #ffe6a7;
     width:140px;
