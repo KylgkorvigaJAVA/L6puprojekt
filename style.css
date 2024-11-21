@@ -165,11 +165,7 @@ header {
 
 @media (max-width: 768px) {
     .text-header {
-        font-size: 6rem; /* Adjust the size as needed */
-        white-space: normal; /* Allow text wrapping on smaller screens */
-    }
-
-    .logo {
-        font-size: 5rem;
+        font-size: 4rem;
+        white-space: normal;
     }
 }
