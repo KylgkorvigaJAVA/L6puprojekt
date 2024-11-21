@@ -168,4 +168,8 @@ header {
         font-size: 6rem; /* Adjust the size as needed */
         white-space: normal; /* Allow text wrapping on smaller screens */
     }
+
+    .logo {
+        font-size: 5rem;
+    }
 }
