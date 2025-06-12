@@ -61,6 +61,11 @@ body {
     outline: 0;
 }
 
+.card {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .desktop-nav-items {
     position: absolute;
     bottom: 0;
